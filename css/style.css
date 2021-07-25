@@ -1,0 +1,412 @@
+/******************
+ google-font
+*******************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/***************** 
+style header section
+*********************/
+header {
+    padding:0 8rem;
+
+}
+nav {
+    width: 100%;
+
+    display: flex;
+
+}
+.left-side {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.brand-logo {
+    display: flex;
+    align-items: center;
+}
+.brand-logo span {
+    font-size: 1.5rem;
+    margin-left:6px;
+}
+.brand-logo img{
+    width:4rem;
+}
+.menu-bar {
+    display: flex;
+    align-items: center;
+}
+.menu-bar a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 1.8rem;
+}
+.menu-bar a li {
+    list-style-type: none;
+    font-size: 1.1rem;
+}
+.menu-bar a li:hover {
+    color: darkcyan;
+}
+.right-side {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right-side .log-btn a{
+    color: #000;
+    padding: 4px 20px;
+    background-color: #92E4EB;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 40px;
+    margin-right: 20px;
+    transition: all 0.5s;
+
+}
+.right-side .log-btn a:hover {
+    background-color: #4C949A;
+    color: #fff;
+} 
+.right-side .button{
+   border: none;
+   font-size: 0.9rem;
+   font-weight: 700;
+   background-color:#92E4EB ;
+   padding: 8px 16px;
+   border-radius: 40px;
+   transition: all 0.5s;
+}
+.right-side .button:hover {
+    background-color: #4C949A;
+    color: #fff;
+    cursor: pointer;
+} 
+/***************** 
+style section-1
+*********************/
+.section-1 {
+    padding: 0 8rem;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+
+.section-1 .left-section-1 {
+    width: 50%;
+}
+.left-section-1 h2 {
+    color: salmon;
+    font-size:3.4rem;
+    margin-bottom: 3rem;
+}
+.left-section-1 p {
+    width: 80%;
+    color: #A3BBBD;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.left-section-1 .button-group img  {
+    width: 180px;
+}
+.right-section-1 img {
+    width: 590px;
+    margin-top: 2rem;
+}
+/*********************** 
+    style section-2
+ *************************/
+.section-2 {
+   
+    padding: 0 8rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left-section-2 img {
+    width: 650px;
+}
+.right-section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5rem;
+}
+.right-section-2 h1 {
+    width: 80%;
+    color: salmon;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.right-section-2 p {
+    color: #A3BBBD;
+    line-height: 2rem;
+    margin: 2rem 0;
+}
+.right-section-2 .section-2-button button{
+    border: none;
+    font-size: 1rem;
+    padding: 12px 30px;
+    text-transform: capitalize;
+    background-color: salmon;
+    border-radius: 20px;
+}
+.section-2-button button.btn-1:hover {
+    background-color:rgb(214, 107, 95);
+}
+.section-2-button button.btn-2 {
+    background-color: rgb(216, 202, 200);
+}
+.section-2-button button.btn-2:hover {
+    background-color: salmon;
+}
+/*********************** 
+    style section-3
+ *************************/
+ .section-3 {
+     width: 100%;
+     height: 650px;
+     background-color: #DAEDEF; 
+     padding: 3rem 8rem;
+ }
+ .section-3 h1 {
+     text-align: center;
+     font-size: 2.3rem;
+     font-weight: 700;
+     text-transform: capitalize;
+     margin-bottom: 1rem;
+}
+.section-3 p {
+    color: #747c7c;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.section-3 .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:1rem;
+    margin-top: 3.5rem;
+    
+}
+.card .card-1 img,
+.card-2 img,
+.card-3 img {
+   width: 200px;
+}
+
+.card .card-1, .card-2,.card-3 {
+   text-align: center;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card .card-1 h2,
+.card-2 h2,
+.card-3 h2{
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+/*********************
+   style section-4
+**************************** */
+#section-4 {
+    margin-top: 6rem;
+}
+#left-section-4 .img {
+    width: 550px;
+}
+/*********************
+   style section-5
+**************************** */
+#section-5 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+#left-section-5 img {
+    width: 550px;
+}
+#right-section-5 h1 {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+.tips .fa-heart {
+    margin-right:0.5rem;
+   color: salmon;
+}
+.tips p {
+    margin-top:0.5rem;
+}
+/*************************
+   style footer
+***************************  */
+footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 8rem;
+    background-image: radial-gradient(circle at 67% 83%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 1%,transparent 1%, transparent 5%,transparent 5%, transparent 100%),radial-gradient(circle at 24% 80%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 27%,transparent 27%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 23% 5%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 26%,transparent 26%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 21% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 35%,transparent 35%, transparent 45%,transparent 45%, transparent 100%),radial-gradient(circle at 10% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 21%,transparent 21%, transparent 81%,transparent 81%, transparent 100%),radial-gradient(circle at 19% 61%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 20%,transparent 20%, transparent 61%,transparent 61%, transparent 100%),radial-gradient(circle at 13% 77%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 63%,transparent 63%, transparent 72%,transparent 72%, transparent 100%),radial-gradient(circle at 30% 93%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 33%,transparent 33%, transparent 82%,transparent 82%, transparent 100%),linear-gradient(90deg, rgb(22, 176, 207),rgb(103, 7, 215));
+}
+.foot-sec-1 ,.link,.contact{
+   padding-top: 2rem;
+}
+.foot-sec-1 .foot-logo {
+    display: flex;
+    align-items: center;
+}
+.foot-sec-1 .foot-logo img {
+    width: 4rem;
+}
+.foot-sec-1 p {
+    width: 400px;
+    margin: 10px 0px;
+}
+.foot-sec-1 .fa-phone-alt, .fa-envelope {
+    margin-right:0.5rem;
+    margin-bottom: 1rem;
+}
+.link  {
+    line-height: 2rem;
+}
+.contact h3{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.contact .mail {
+    width: 300px;
+    height: 40px;
+    font-size: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+.contact button {
+    border: none;
+    border-radius: 25px;
+    background-color: salmon;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+
+/*********************** 
+    style media query
+ *************************/
+@media only screen and (max-width:992px) {
+    header {
+        padding:0 4rem;
+    
+    }
+    .left-side {
+        width: 70%;
+    }
+    .menu-bar a {
+        margin-right: 1rem;
+    }
+    .section-1 {
+        padding: 0 4rem;
+    }
+    .left-section-1 h2{
+        font-size:2.5rem ;
+        margin-top: 3rem;
+    }
+    .right-section-1 img {
+        width: 450px;
+        margin-top:0 ;
+    }
+}
+@media only screen and (max-width:480px){
+    header {
+        padding: 0;
+    }
+    nav {
+        display: block;
+    }
+    .left-side {
+        display: block;
+       
+    }
+    .menu-bar {
+        margin-left: 1rem;
+    }
+    .menu-bar a {
+        text-decoration: none;
+        color: #000;
+        margin-right:1rem;
+    }
+    .menu-bar a li {
+        font-size:0.9rem;
+    }
+    .right-side {
+        margin: 1rem 1.5rem;
+    }
+    /* section-1 */
+    .section-1 {
+        display: block;
+        padding: 0;
+        margin-left: 1rem;
+    }
+    .section-1 .left-section-1 {
+        width: 100%;
+    }
+    .left-section-1 h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    .left-section-1 p {
+        width: 90%;
+   
+    }
+    .left-section-1 .button-group img{
+        width: 130px;
+    }
+    .right-section-1 img {
+        width:360px ;
+        margin-top: 2rem;
+    }
+    /* section-2 */
+    .section-2 {
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin-top: 10rem;
+    }
+    .section-2 img {
+        width: 390px;
+    }
+    .right-section-2 {
+        margin:1rem;
+     }
+    .right-section-2 h1 {
+        width:100%;
+        color: salmon;
+        font-size:1.8rem;
+        text-transform: capitalize;
+    }
+    .right-section-2 p {
+        
+    }
+    
+}
